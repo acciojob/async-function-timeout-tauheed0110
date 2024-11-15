@@ -12,7 +12,6 @@ btn.addEventListener('click', ()=>{
                 await promise(1000);
                 // once the promise is reolved display it afer certain delay
                 output.textContent = input1.value.trim();
-                input1.value='';
             }catch(error){
                 console.log(error);
             }
@@ -26,7 +25,6 @@ btn.addEventListener('click', ()=>{
                 await promise(2000);
                 // once the promise is reolved display it afer certain delay
                 output.textContent = input2.value.trim();
-                input2.value='';
             }catch(error){
                 console.log(error);
             }
